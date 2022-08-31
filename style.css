@@ -1,0 +1,37 @@
+
+body{
+    display: flex;
+    background-color: azure;
+    justify-content: center;
+    background: url('./calci_bg.jpg');
+    background-size: cover;
+
+}
+
+.container{
+    /* border: 1px solid; */
+    display: inline-block;
+  
+    margin-top: 40px;
+    background-color: rgb(42, 42, 42);
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+
+#result{
+    width: 325px;
+    height: 60px;
+    font-size: xx-large;
+}
+
+.btn{
+    color: black;
+    width: 80px;
+    height: 60px;
+    font-size: 25px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
